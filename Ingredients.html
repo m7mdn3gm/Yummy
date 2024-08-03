@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- ====== Start Loading ====== -->
+    <div class="loading" id="loading">
+      <i class="fa-solid fa-spinner fa-2x fa-spin"></i>
+    </div>
+    <!-- ====== End Loading ====== -->
+    <!-- ====== Start Header ====== -->
+    <div class="header">
+      <div class="">
+        <nav id="navMove" class="d-flex">
+          <div class="menu d-flex flex-column justify-content-between">
+            <ul class="ps-0">
+              <li><a href="search.html">Search</a></li>
+              <li><a href="categories.html">Categories</a></li>
+              <li><a href="area.html">Area</a></li>
+              <li><a href="Ingredients.html">Ingredients</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="footer">
+              <div class="icon d-flex align-items-center gap-2">
+                <i class="fa-brands fa-facebook-f text-light fs-5"></i>
+                <i class="fa-brands fa-twitter text-light fs-5"></i>
+                <i class="fa-brands fa-linkedin text-light fs-5"></i>
+              </div>
+              <p class="text-light mt-2">
+                Copyright Â© 2019 All Rights Reserved.
+              </p>
+            </div>
+          </div>
+          <div
+            class="icons-menu d-flex flex-column justify-content-between text-center"
+          >
+            <img
+              src="images/logo.png"
+              class="d-block mx-auto mt-3"
+              alt="photo"
+            />
+            <i id="moveIcon" class="fa-solid fa-bars fs-3 d-block"></i>
+            <i id="closeIcon" class="fa-solid fa-close fs-3 d-none"></i>
+            <div class="icons d-flex flex-column gap-2 fs-5 mb-3">
+              <i class="fa-solid fa-globe"></i>
+              <i class="fa-solid fa-share-alt"></i>
+            </div>
+          </div>
+        </nav>
+        <div class="header-content">
+          <div class="py-4">
+            <h2 class="title">Ingredients</h2>
+            <div class="boxs-ingredient pt-3" id="showBox5"></div>
+            <div class="boxs" id="showFilters"></div>
+          </div>
+        </div>
+        <div class="single-page d-none gap-5" id="showSingle"></div>
+      </div>
+    </div>
+    <!-- ====== End Header ====== -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
