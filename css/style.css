@@ -139,6 +139,15 @@ nav.show {
   border-radius: 6px;
   text-align: center;
 }
+@media (max-width: 800px) {
+  .single-page {
+    flex-direction: column;
+  }
+  .single-page .left .image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
 /* ====== End Single Page ====== */
 /* ==========
 search.html style
