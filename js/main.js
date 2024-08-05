@@ -199,7 +199,7 @@ function displaySinglePage3(i, val) {
   const SinglePage = document.querySelector(".single-page");
   const container_search = document.querySelector(".container_search");
   console.log(i, val);
-  fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${val}`).then(
+  fetch(`https://www.themealdb.com/api/json/v1/1/search.php?f=${val}`).then(
     (req) => {
       req.json().then((data) => {
         const meal = data.meals[i];
